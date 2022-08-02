@@ -1,0 +1,3 @@
+dependencies {
+    api     project(':wrench-cloud-common:wrench-cloud-common-security')
+}

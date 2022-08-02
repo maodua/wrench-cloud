@@ -1,0 +1,5 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  io.github.maodua.common.security.feign.FeignConfig,\
+  io.github.maodua.common.security.config.WebMvcConfig,\
+  io.github.maodua.common.security.interceptor.HeaderInterceptor
+

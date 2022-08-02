@@ -1,0 +1,7 @@
+rootProject.name = 'wrench-cloud'
+
+//include 'wrench-cloud-common'
+include 'wrench-cloud-common:wrench-cloud-common-security'
+findProject(':wrench-cloud-common:wrench-cloud-common-security')?.name = 'wrench-cloud-common-security'
+include 'wrench-cloud-dependencies'
+
